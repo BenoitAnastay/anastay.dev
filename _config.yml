@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Benoît ANASTAY
 email: benoit@anastay.dev
-description: >- Prestataire de services en informatique, électricité générale et domotique
+description: "Prestataire de services en informatique, électricité générale et domotique"
 # twitter_username: username
 github_username: BenoitAnastay
 minimal_mistakes_skin: default

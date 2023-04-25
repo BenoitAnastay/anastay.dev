@@ -19,7 +19,6 @@ description: "Prestataire de services en informatique, électricité générale 
 # twitter_username: username
 github_username: BenoitAnastay
 minimal_mistakes_skin: air
-search: true
 
 # Build settings
 markdown: kramdown

@@ -18,7 +18,7 @@ email: benoit@anastay.dev
 description: "Prestataire de services en informatique, électricité générale et domotique"
 # twitter_username: username
 github_username: BenoitAnastay
-minimal_mistakes_skin: default
+minimal_mistakes_skin: air
 search: true
 
 # Build settings
@@ -28,7 +28,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: FR
+timezone: Europe/Paris
 locale: "fr-FR"
 
 include:

@@ -14,6 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Benoît ANASTAY
+logo: "/assets/images/masthead.svg"
+
 email: benoit@anastay.dev
 description: "Prestataire de services en informatique, électricité générale et domotique"
 # twitter_username: username

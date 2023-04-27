@@ -1,0 +1,18 @@
+
+- category: "Informatique"
+  prestations:
+    - title: "Dépanage système Windows, MacOS, Linux"
+      prix: "50€"
+      desc: "Dépanage de votre ordinateur si celui-ci ne présente pas de problème matériel, tarif forfétaire, non facturé en cas d'échec"
+
+- category: "Domotique"
+  prestations:
+    - title: "Installation Home Assistant"
+      prix: "50€"
+      desc: "Installation de Home Assistant seul, sans fourniture de matériel"
+    - title: "Installation d'équipement de contrôle de l'éclairage"
+      prix: "10€/élément contrôlé"
+      desc: "Matériel sur devis"
+    - title: "Installation d'une serrure electronique"
+      prix: "80€"
+      desc: ""

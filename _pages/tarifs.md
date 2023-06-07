@@ -1,5 +1,5 @@
 ---
-title: Tarifs
+title: [Stub] Tarifs
 layout: splash
 permalink: /tarifs
 author_profile: false
@@ -26,3 +26,7 @@ header:
   {% endfor %}
   </table>
 {% endfor %}
+
+This page is a stub for a futher company, those informations aren't real.
+
+Cette page est une ébauche pour une future entreprise, ces informations sont fausses 

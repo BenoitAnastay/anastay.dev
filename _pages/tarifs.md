@@ -1,5 +1,5 @@
 ---
-title: [Stub] Tarifs
+title: "[Stub] Tarifs"
 layout: splash
 permalink: /tarifs
 author_profile: false
@@ -14,9 +14,9 @@ header:
   {% for prestation in entry.prestations %}
       {% if forloop.first %}
       <tr>
-        {% for pair in prestation %}
-          <th>{{ pair[0] }}</th>
-        {% endfor %}
+          <th>Libellé</th>
+          <th>Tarif</th>
+          <th>Description</th>
       </tr>
       {% endif %}
 

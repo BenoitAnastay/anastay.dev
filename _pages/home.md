@@ -8,7 +8,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
 intro: 
-  - excerpt: 'Prestataire de service en informatique et installateur de systèmes domitiques'
+  - excerpt: 'Prestataire de service en informatique et installateur de systèmes domotiques'
 feature_row:
   - title: "Informatique"
     excerpt: "Administration système, installation et maintenance d'applications et d'infrastructures réseau."

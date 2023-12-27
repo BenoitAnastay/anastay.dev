@@ -27,6 +27,12 @@
         {% endif %}
       </span>
 
+      {% if project.time %}
+      <span class="project-time">
+        ({{ project.time }})
+      </span>
+      {% endif %}
+
       {% if project.tagline %}
       - <span class="project-tagline">{{ project.tagline }}</span>
       {% endif %}

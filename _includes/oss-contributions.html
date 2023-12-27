@@ -27,6 +27,12 @@
       {% endif %}
     </span>
 
+    {% if contribution.time %}
+    <span class="contribution-time">
+      ({{ contribution.time }})
+    </span>
+    {% endif %}
+
     {% if contribution.tagline %}
     - <span class="project-tagline">{{ contribution.tagline }}</span>
     {% endif %}

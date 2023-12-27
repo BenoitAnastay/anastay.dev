@@ -1,265 +1,328 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
-
+---
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    position: right  # position of the sidebar : left or right
+    about: false  # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: false  # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Benoît Anastay
+    tagline: Developpeur et administrateur système
+    avatar: profile.png  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    email: benoit@anastay.dev
+    phone: 07 67 41 74 07
+    # timezone: Europe/Paris
+    # citizenship: Française
+    website: anastay.dev  # do not add http://
+    linkedin: benoitanastay
+    xing:
+    github: BenoitAnastay
+    telegram:  # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    twitter:
+    stack-overflow:  # Number/Username, e.g. 123456/alandoe
+    codewars: BenoitAnastay
+    goodreads:  # Number-Username, e.g. 123456-alandoe
+    pdf: http://www.anastay.dev/assets/CV Benoit Anastay.pdf
 
     languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
+        title: Langues
+        info:
+            - idiom: Français
+              level: Natif
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+            - idiom: Anglais
+              level: C1 | Compétences professionnelles complètes
 
     interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+        title: Centres d'interêts
+        info:
+            - item: Domotique
+              link:
 
-        - item: Snowboarding
-          link:
+            - item: Hacking | Bidouillage
+              link:
 
-        - item: Cooking
-          link:
+            - item: DMX | Son et lumières
+              link:
 
 career-profile:
-    title: Career Profile
+    title: Présentation
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Je suis un informaticien autodidacte, j'ai travaillé en Freelance avant
+      de rejoindre une petite SARL d'emailling dans laquelle j'étais
+      responsable de toute l'infrastructure informatique de l'entreprise,
+      les défis que représente le mass-mailing m'ont permis de développer
+      des compétences variées.
+
+      Après l'arrêt d'activité de cette entreprise j'ai tenté de faire une
+      société de domotique, mais je n'ai pas eu l'occasion de concrétiser
+      le projet, je continue néanmoins à participer à des projets Open Source
+      en lien avec la domotique.
+
+      Aujourd'hui je recherche une activité salarié
 education:
-    title: Education
+    title: Formation
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+        - degree: Piscine
+          university: École 42
+          time: Juillet 2016
+          details: |
+            Formation et épreuve d'un mois en développement informatique,
+            l'environement de travail est principalement le terminal OSX
+            avec git en gestionaire de de versions et VIM ou Jetbrain en IDE
+
+            Les travaux de groupe et la pair aidance sont les méthodes
+            d'apprentissange privilégiés de cette école
+              - Programmation bas niveau C 99 x86
+              - Maitrise des normes de programmations
+              - Codage de fonctions complexes sans utilisation de librairies et
+              des fonctions du kernel Linux
+              - Maitrise du shell et de l'environnement Unix
+              - Travail en équipe
+        - degree: BEP Metiers Administratifs
+          university: Lycée Professionnel Sophie Germain Thionville
+          time: 2012 - 2013
+          details: |
+            Formation généraliste des métiers de gestion administrative
+            d'entreprise (facturation, secreteriat, déclarations CA,
+            comptabilité)
+              - Maitrise de la facturation sous Ciel Comptabilité
+              - Maitrise des logiciels Microsoft World et Microsoft Excel
+              - Rédaction de lettres en environnement B2B, prise de contact
+              téléphonique
+              - Rédaction de déclarations TVA, factures, factures d'avoir,
+              échéanciers
+              - Bases du commerce international
+              - Lecture du plan comptable
+              - Gestion des comptes Client, Fournisseur, Banque, etc…
+        - degree: BEP Maintenance des Systèmes Mécaniques Automatisés
+          university: Lycée Polyvalent La Briquerie site de La Malgrange
+          time: 2011 - 2012
+          details: |
+            Formation en mécanique industriel.
+            _intérompue pour raisons médicale_
+              - Dessin industriel
+              - Cours de mécanique
+        - degree: BEP Maintenance des Systèmes Mécaniques Automatisés
+          university: Lycée Professionnel Gaspard Monge Knutange
+          time: 2009 - 2011
+          details: |
+            Formation en electricité générale et electricité industrielle.
+              - Réalisation de schéma électrique dans un environnement
+              domestique et industriel
+              - Maintenance et réalisation de coffrets électriques
+              (Chaines de production, outillage)
+              - Programmation d'automates à des fins d'automatisation
+              de la production
+              - Câblage et pose d'appareillages dans un environnement
+              domestique, tertiaire et industriel
+              - Achat de matériel en fonction des contraintes techniques
+              et des normes
 
 experiences:
-    title: Experiences
+    title: Expérience
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+        - role: Administrateur système & réseau / Devops
+          time: mai 2014 - juil. 2016 2 ans 3 mois
+          company: WEBLEV INDUSTRY
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            l'Entreprise d'e-mailling qui était mon client à l'époque m'a
+            recruté à pleins temps en tant qu'associé pour la gestion de
+            toute son informatique, sa demande était de confirgurer des
+            serveurs d'emails avec plusieurs noms de domaines et adresses
+            IPs, j'ai tout de suite mis en place des procédures automatisés
+            afin d'éliminer le travail de paramétrage manuel.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+            Durant ces deux années je me suis éfforcé d'élliminer toutes
+            sources de pannes potentielles, de sécuriser l'infrastructure
+            contre les comportements malveillants et aussi d'augmenter la
+            delivrabilitée des emails.
+
+            J'ai utilisé diverses technologies tel que vSphre, les vRack OVH,
+            Ansible, PHP, Code bas niveau C pour multithreading, ZFS pour le
+            stoquage des fichiers emails, Redis pour le suivi des liens de
+            tracking, PKI pour sécuriser les échanges entre les machines,
+            Fail2Ban pour bloquer les robots malveillants, pfSense en routeur
+            VPN multi-site et en serveur DHCP pour le provisionement des
+            nouvelles machines, FreeIPA en remplacement de Active Directory
+            et aussi FreeNAS en serveur iSCSI pour la gestion des volumes
+            virtuels.
+
+            - Mise en place de serveurs SMTP (PowerMTA) avec front-ends PHP
+            (Interspire | OemPro)
+            - Développement d'une plateforme d'administration centralisée
+            avec la bibliothèque Phalcon-PHP
+            - Provisionnement automatique des machines virtuelles dans
+            l'environnement vSphere avec ISO Kickstarter CentOS)
+            - Configuration automatique de PMTA, Nginx, MongoDB, Redis,
+            OpenSSH, Let's Encrypt SSL, MySQL, PHP-FPM et du front-end
+        - role: Sous-traitant informatique
+          time: 2015
+          company: Captain Lead · Freelance
           details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            Vente et mise en place du produit développé pour WEBLEV INDUSTRY,
+            participation à l'API NodeJS d'emailling (Interface SMTP)
+        - role: Technicien informatique
+          time: 2013
+          company: Succeed Together · Freelance
+          details: |
+            Mise en place d'un réseau WiFi au sein du Pavillon Gabriel à Paris
+            place de la concorde, réseau mit en service le matin avant la
+            conférence d'entreprise prévue ce jour et retiré le soir après le
+            départ des intervenants, AP de marque CISCO en redondance (x5)
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Projets
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        - title: ESP8266 LED Strip Driver
+          time: 2019
+          link: >
+           "https://www.hackster.io/BenoitAnastay/esp8266-led-strip-driver-apa102-ws2811-working-with-hassio-39cd07"
+          tagline: "Controlleur de LEDs adressables avec MCU ESP8266"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        - title: User Friendly WUP Installer
+          time: 2016
+          link: >
+           "https://wiki.gbatemp.net/wiki/WUP_Installer#User_Friendly_WUP_Installer"
+          tagline: "Interface permetant d'installer des paquets d'applications
+          sur la WiiU"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        - title: free-boot2 TI nspire
+          time: 2013
+          link: >
+           "https://tiplanet.org/forum/viewtopic.php?t=11419&mobile_disable=1&lang=fr#p136903"
+          tagline: "Dessasemblage et du logiciel d e démarrage de la
+          calculatrice Texas Instrument nspire afin de produire un patch qui
+          desactive la vérification de la signature numérique de son système
+          d'exploitation"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        - title: Plan Comptable Général
+          time: 2012
+          tagline: "Petite application iPhone pour naviguer facilement dans le
+          plan comptable sans besoin d'internet"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        - title: Test ADSL Pro
+          time: 2012
+          tagline: "Application iPhone à destination des techniciens xDSL leur
+          permettant d'obtenir les caractéristiques techniques détaillés des
+          lignes téléphoniques ainsi que des outils de calcul des valeurs de
+          mesure de capacitance attendus"
+
+        - title: World of Eden
+          time: 2009-2011
+          tagline: "Administration système et developpement d'un serveur de jeu
+          World of Warcraft"
+
+        - title: CG Hébergement
+          time: 2008-2010
+          tagline: "Création d'un service d'hébergement de site web gratuit
+          avec interface d'administration côté client"
+
+        - title: Creat-game
+          time: 2006-2008
+          tagline: "Création d'un site web communautaire de jeux flash basé sur
+          le logiciel Open Source phpBB"
 
 oss:
-    title: OSS Contributions
+    title: Contributions Open Source
     intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Quelques unes de mes contributions à des projets Open Source
     contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        - title: Dêpot d'add-ons Home Assistant
+          time: 2023
+          link: >
+           "https://github.com/BenoitAnastay/home-assistant-addons-repository"
+          tagline: "Je maintiens quelques add-ons pour
+          Home Assistant, notament Paperless-ngx"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        - title: Home Assistant - Integration Freebox
+          time: 2022
+          link: "https://github.com/home-assistant/core/pull/74718"
+          tagline: "Correction de l'intégration de la Freebox Delta"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        - title: Adafruit - ci-arduino
+          time: 2019
+          link: "https://github.com/adafruit/ci-arduino"
+          tagline: "Correction du process CI"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        - title: OVH
+          time: 2019
+          link: "https://github.com/ovh/overthebox-feeds"
+          tagline: "Correction de l'interface graphique"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+        - title: FastLED
+          time: 2019
+          link: "https://github.com/FastLED/FastLED/pull/936"
+          tagline: "Ajout de la prise en charge de l'interface SPI
+          pour l'ESP8266"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Compétances
 
     toolset:
-      - name: Python & Django
-        level: 98%
+        - name: Administration Linux
+          level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+        - name: Administration réseau
+          level: 88%
 
-      - name: Angular
-        level: 98%
+        - name: PHP
+          level: 80%
 
-      - name: HTML5 & CSS
-        level: 95%
+        - name: Docker
+          level: 65%
 
-      - name: Ruby on Rails
-        level: 85%
+        - name: Python
+          level: 60%
 
-      - name: Sketch & Photoshop
-        level: 60%
+        - name: GIT
+          level: 60%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+        - name: Ansible
+          level: 40%
+
+        - name: Téléphonie IP
+          level: 40%
+
+        - name: Arduino
+          level: 35%
+
+        - name: Windows Server
+          level: 30%
+
+        - name: LaTEX
+          level: 25%
+
+        - name: IDA Pro
+          level: 20%
+
+# footer: >
+#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

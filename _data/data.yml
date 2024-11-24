@@ -141,27 +141,17 @@ experiences:
           time: mai 2014 - juil. 2016 2 ans 3 mois
           company: WEBLEV INDUSTRY
           details: |
-            l'Entreprise d'e-mailling qui était mon client à l'époque m'a
-            recruté à pleins temps en tant qu'associé pour la gestion de
-            toute son informatique, sa demande était de confirgurer des
-            serveurs d'emails avec plusieurs noms de domaines et adresses
-            IPs, j'ai tout de suite mis en place des procédures automatisés
-            afin d'éliminer le travail de paramétrage manuel.
+            J'ai configuré des serveurs d'emails avec
+            plusieurs noms de domaines et adresses IPs, en automatisant les
+            procédures pour éviter le paramétrage manuel.
 
-            Durant ces deux années je me suis éfforcé d'élliminer toutes
-            sources de pannes potentielles, de sécuriser l'infrastructure
-            contre les comportements malveillants et aussi d'augmenter la
-            delivrabilitée des emails.
+            Pendant ces deux années, j'ai sécurisé l'infrastructure,
+            éliminé les pannes potentielles et amélioré la délivrabilité
+            des emails.
 
-            J'ai utilisé diverses technologies tel que vSphre, les vRack OVH,
-            Ansible, PHP, Code bas niveau C pour multithreading, ZFS pour le
-            stoquage des fichiers emails, Redis pour le suivi des liens de
-            tracking, PKI pour sécuriser les échanges entre les machines,
-            Fail2Ban pour bloquer les robots malveillants, pfSense en routeur
-            VPN multi-site et en serveur DHCP pour le provisionement des
-            nouvelles machines, FreeIPA en remplacement de Active Directory
-            et aussi FreeNAS en serveur iSCSI pour la gestion des volumes
-            virtuels.
+            J'ai utilisé des technologies comme vSphere, OVH vRack, Ansible,
+            PHP, C pour le multithreading, ZFS, Redis, PKI, Fail2Ban, pfSense,
+            FreeIPA et FreeNAS.
 
             - Mise en place de serveurs SMTP (PowerMTA) avec front-ends PHP
             (Interspire | OemPro)
@@ -193,20 +183,17 @@ projects:
     assignments:
         - title: ESP8266 LED Strip Driver
           time: 2019
-          link: >
-            "https://www.hackster.io/BenoitAnastay/esp8266-led-strip-driver-apa102-ws2811-working-with-hassio-39cd07"
+          link: "https://www.hackster.io/BenoitAnastay/esp8266-led-strip-driver-apa102-ws2811-working-with-hassio-39cd07"
           tagline: "Contrôleur de rubans LED adressables utilisant un MCU
           ESP8266."
         - title: User Friendly WUP Installer
           time: 2016
-          link: >
-            "https://wiki.gbatemp.net/wiki/WUP_Installer#User_Friendly_WUP_Installer"
+          link: "https://wiki.gbatemp.net/wiki/WUP_Installer#User_Friendly_WUP_Installer"
           tagline: "Interface permettant d'installer des paquets d'applications
           sur la WiiU."
         - title: free-boot2 TI-Nspire
           time: 2013
-          link: >
-            "https://tiplanet.org/forum/viewtopic.php?t=11419&mobile_disable=1&lang=fr#p136903"
+          link: "https://tiplanet.org/forum/viewtopic.php?t=11419&mobile_disable=1&lang=fr#p136903"
           tagline: "Désassemblage du logiciel de démarrage de la calculatrice
           Texas Instruments Nspire pour créer un patch désactivant la
           vérification de la signature numérique de son système
@@ -244,8 +231,7 @@ oss:
     contributions:
         - title: Dêpot d'add-ons Home Assistant
           time: 2023
-          link: >
-           "https://github.com/BenoitAnastay/home-assistant-addons-repository"
+          link: "https://github.com/BenoitAnastay/home-assistant-addons-repository"
           tagline: "Je maintiens quelques add-ons pour
           Home Assistant, notament Paperless-ngx"
 

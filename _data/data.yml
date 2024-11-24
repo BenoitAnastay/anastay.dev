@@ -126,8 +126,15 @@ education:
               et des normes
 
 experiences:
-    title: Expérience
+    title: Expériences professionnelles
     info:
+        - role: Assistant Informatique
+          time: Octobre 2024 - Aujourd'hui
+          company: APPEP
+          details: |
+            Accompagnent de l'entreprise dans le deploiement de sa solution de
+            GPAO
+            Creéation d'un interface de suivi des demandes de devis
         - role: Administrateur système & réseau / Devops
           time: mai 2014 - juil. 2016 2 ans 3 mois
           company: WEBLEV INDUSTRY
@@ -166,16 +173,18 @@ experiences:
           time: 2015
           company: Captain Lead · Freelance
           details: |
-            Vente et mise en place du produit développé pour WEBLEV INDUSTRY,
-            participation à l'API NodeJS d'emailling (Interface SMTP)
+            Vente et déploiement du produit développé pour WEBLEV INDUSTRY.
+            Participation au développement de l'API d'e-mailing en NodeJS
+            (interface SMTP).
         - role: Technicien informatique
           time: 2013
           company: Succeed Together · Freelance
           details: |
-            Mise en place d'un réseau WiFi au sein du Pavillon Gabriel à Paris
-            place de la concorde, réseau mit en service le matin avant la
-            conférence d'entreprise prévue ce jour et retiré le soir après le
-            départ des intervenants, AP de marque CISCO en redondance (x5)
+            Mise en place d'un réseau WiFi au Pavillon Gabriel à Paris (Place
+            de la Concorde).
+            Réseau mis en service le matin avant la conférence d'entreprise et
+            démonté le soir après le départ des participants.
+            Installation de 5 points d'accès CISCO redondants.
 
 projects:
     title: Projets
@@ -183,30 +192,27 @@ projects:
         - title: ESP8266 LED Strip Driver
           time: 2019
           link: >
-           "https://www.hackster.io/BenoitAnastay/esp8266-led-strip-driver-apa102-ws2811-working-with-hassio-39cd07"
-          tagline: "Controlleur de LEDs adressables avec MCU ESP8266"
-
+            "https://www.hackster.io/BenoitAnastay/esp8266-led-strip-driver-apa102-ws2811-working-with-hassio-39cd07"
+          tagline: "Contrôleur de rubans LED adressables utilisant un MCU
+          ESP8266."
         - title: User Friendly WUP Installer
           time: 2016
           link: >
-           "https://wiki.gbatemp.net/wiki/WUP_Installer#User_Friendly_WUP_Installer"
-          tagline: "Interface permetant d'installer des paquets d'applications
-          sur la WiiU"
-
-        - title: free-boot2 TI nspire
+            "https://wiki.gbatemp.net/wiki/WUP_Installer#User_Friendly_WUP_Installer"
+          tagline: "Interface permettant d'installer des paquets d'applications
+          sur la WiiU."
+        - title: free-boot2 TI-Nspire
           time: 2013
           link: >
-           "https://tiplanet.org/forum/viewtopic.php?t=11419&mobile_disable=1&lang=fr#p136903"
-          tagline: "Dessasemblage et du logiciel d e démarrage de la
-          calculatrice Texas Instrument nspire afin de produire un patch qui
-          desactive la vérification de la signature numérique de son système
-          d'exploitation"
-
+            "https://tiplanet.org/forum/viewtopic.php?t=11419&mobile_disable=1&lang=fr#p136903"
+          tagline: "Désassemblage du logiciel de démarrage de la calculatrice
+          Texas Instruments Nspire pour créer un patch désactivant la
+          vérification de la signature numérique de son système
+          d'exploitation."
         - title: Plan Comptable Général
           time: 2012
-          tagline: "Petite application iPhone pour naviguer facilement dans le
-          plan comptable sans besoin d'internet"
-
+          tagline: "Application iPhone pour naviguer facilement dans le plan
+          comptable sans besoin d'une connexion internet."
         - title: Test ADSL Pro
           time: 2012
           tagline: "Application iPhone à destination des techniciens xDSL leur

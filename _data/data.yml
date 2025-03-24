@@ -131,12 +131,14 @@ experiences:
     title: Expériences professionnelles
     info:
         - role: Assistant Informatique
-          time: Octobre 2024 - Aujourd'hui
+          time: Octobre 2024 - Mars 2025
           company: APPEP
           details: |
-            Accompagnent de l'entreprise dans le deploiement de sa solution de
-            GPAO
-            Creéation d'un interface de suivi des demandes de devis
+            - Transformation de tableaux Excel en bases de données relationnelles.
+            - Création d'un module Odoo pour le suivi des demandes de devis, personnalisation du module de GMAO. 
+            - Réalisation d'un étiquetage et d'un inventaire des outils pour la GMAO.
+            - Installation d'un serveur Debian, avec sauvegarde Borgmatic sur NAS local, Caddy, Odoo, Gitea et UFW
+            - Création d'une documentation utilisateur et d'une documentation technique.
         - role: Administrateur système & réseau / Devops
           time: mai 2014 - juil. 2016 2 ans 3 mois
           company: WEBLEV INDUSTRY

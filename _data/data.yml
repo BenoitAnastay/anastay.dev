@@ -60,14 +60,9 @@ career-profile:
       les défis que représente le mass-mailing m'ont permis de développer
       des compétences variées.
 
-      Après l'arrêt d'activité de cette entreprise j'ai tenté de faire une
-      société de domotique, mais je n'ai pas eu l'occasion de concrétiser
-      le projet, je continue néanmoins à participer à des projets Open Source
-      en lien avec la domotique.
-
-      Je suis maintenant en poste en tant qu'assistant informatique dans une
-      entreprise adaptée, je suis en charge de la mise en place de la GPAO et
-      de l'interface de suivi des devis.
+      J'ai par la suite travaillé dans une entreprise adaptée pour
+      laquelle j'ai développé un module Odoo pour la gestion des demandes de
+      devis et adapté le module GMAO à leurs besoins.
 education:
     title: Formation
     info:
@@ -140,7 +135,7 @@ experiences:
             - Installation d'un serveur Debian, avec sauvegarde Borgmatic sur NAS local, Caddy, Odoo, Gitea et UFW
             - Création d'une documentation utilisateur et d'une documentation technique.
         - role: Administrateur système & réseau / Devops
-          time: mai 2014 - juil. 2016 2 ans 3 mois
+          time: Mai 2014 - Février 2017
           company: WEBLEV INDUSTRY
           details: |
             J'ai configuré des serveurs d'emails avec
